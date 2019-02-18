@@ -9,10 +9,10 @@ pipeline {
 
     stage('build') {
       steps {
-      /*  sh '''
-          cat index.html
+        cmd '''
+          dir 
         '''
-        */
+       
       }
     }
 
