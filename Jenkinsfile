@@ -9,9 +9,7 @@ pipeline {
 
     stage('build') {
       steps {
-        cmd '''
-          dir 
-        '''
+          echo 'build to staging'
        
       }
     }
